@@ -45,9 +45,13 @@ public class Bicicleta extends Veiculo {
         this.individual = individual;
     }
 
+    /**
+     * Retorna o tipo da classe.
+     * @return Retorna a String Bicicleta.
+     */
     @Override
     public String getType() {
-        return "AluguerUC.Bicicleta";
+        return "Bicicleta";
     }
 
     @Override

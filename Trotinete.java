@@ -65,6 +65,15 @@ public class Trotinete extends VeiculoEletrico {
         this.ecraLCD = ecraLCD;
     }
 
+    /**
+     * Retorna o tipo da classe.
+     * @return Retorna a String Trotinete.
+     */
+    @Override
+    public String getType() {
+        return "Trotinete";
+    }
+
     @Override
     public String toString() {
         String aux;

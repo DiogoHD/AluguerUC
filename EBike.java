@@ -65,6 +65,15 @@ public class EBike extends VeiculoEletrico {
         this.bateriaRemovivel = bateriaRemovivel;
     }
 
+    /**
+     * Retorna o tipo da classe.
+     * @return Retorna a String E-Bike.
+     */
+    @Override
+    public String getType() {
+        return "E-Bike";
+    }
+
     @Override
     public String toString() {
         String aux;

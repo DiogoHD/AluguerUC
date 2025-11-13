@@ -48,6 +48,10 @@ public class VeiculoEletrico extends Veiculo {
         this.nivelBateria = nivelBateria;
     }
 
+    /**
+     * Retorna o tipo da classe.
+     * @return Retorna a String Veículo Elétrico.
+     */
     @Override
     public String getType() {
         return "Veículo Elétrico";
