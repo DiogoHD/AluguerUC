@@ -5,13 +5,14 @@ package AluguerUC;
  *
  * <p>Classe usada para representar os veículos alugados,
  * possuindo um id (int) e a sua localização GPS atual (String)</p>
+ * <p>Não pode ser instanciada.</p>
  *
  * @since 1.0
  * @author Diogo Neves
  * @author Mário Santos
  * @version 1.0 (11/11/2025)
  */
-public class Veiculo {
+public abstract class Veiculo {
     private int id;
     private String gps;
 

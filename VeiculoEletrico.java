@@ -5,6 +5,7 @@ package AluguerUC;
  *
  * <p>Estende da classe {@link Veiculo} de forma a incluir
  * o nível de bateria de um veíuclo.</p>
+ * <p>Não pode ser instanciada.</p>
  *
  * @since 1.0
  * @see Veiculo
@@ -12,7 +13,7 @@ package AluguerUC;
  * @author Mário Santos
  * @version 1.0 (11/11/2025)
  */
-public class VeiculoEletrico extends Veiculo {
+public abstract class VeiculoEletrico extends Veiculo {
     private float nivelBateria;
 
     /**
